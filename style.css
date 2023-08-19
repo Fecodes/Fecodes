@@ -103,7 +103,7 @@ section.imagem > p {
 
 section#img01 {
     background-image: url(skills.jpg);
-   background-position: bottom bottom;
+   background-position: top center;
     
     
     
@@ -111,7 +111,7 @@ section#img01 {
 
 section#img02 {
     background-image: url(correios.jpg);
-    
+    background-position: center top;
 }
 
 footer {
