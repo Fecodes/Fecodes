@@ -144,7 +144,7 @@ section.normal > div#perfil > img {
 section.normal > span > img {
     width: 600px;
     height: 450px;
-    border:10px solid white ;
+    border: 5px solid white ;
     border-radius: 10%;
     margin-left: 25%;
 }
