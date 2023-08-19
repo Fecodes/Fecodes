@@ -65,8 +65,8 @@ section {
 }
 
 section > p {
-    
-    padding: 50px;
+    text-align: center;
+    padding: 25px;
 }
 
 section.normal {
@@ -119,6 +119,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: var(--fonte3);
 }
 
 section.normal > p > a {
@@ -130,29 +131,24 @@ section.normal > p#projetos > a:hover {
     text-decoration: underline;
 }
 
-section.normal > p#projetos {
-    text-align: left;
-}
-
-section.normal > p#resumo {
-    text-align: left;
-}
-
-section.normal > p#perfil {
-    text-align: center;
-}
-
-section.normal > p#contato {
-    text-align: center;
-    font-size: 4vw;
-}
-
 section.normal > p#contato > a:hover {
     text-decoration: underline;
 }
 
-section.normal > div > img {
+section.normal > div#perfil > img {
     width: 50%;
     border:10px solid white ;
     border-radius: 50%;
+}
+
+section.normal > span > img {
+    width: 600px;
+    height: 450px;
+    border:10px solid white ;
+    border-radius: 10%;
+    margin-left: 25%;
+}
+
+section.normal > p#contato {
+    font-size: 2em;
 }
