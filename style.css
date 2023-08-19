@@ -131,6 +131,10 @@ section.normal > p#projetos > a:hover {
     text-decoration: underline;
 }
 
+section.normal > p#projetos {
+    margin-bottom: -40px;
+}
+
 section.normal > p#contato > a:hover {
     text-decoration: underline;
 }
