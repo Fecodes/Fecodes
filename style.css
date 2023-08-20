@@ -161,3 +161,12 @@ section.normal > p#curso {
 section.normal > p#curso a:hover {
     text-decoration: underline;
 }
+
+section.normal > p#pdf {
+    margin-bottom: -50px;
+    margin-top: -20px;
+}
+
+section.normal > p#pdf a:hover {
+    text-decoration: underline;
+}
